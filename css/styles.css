@@ -1,0 +1,227 @@
+html {
+    height: 100%;
+    width: 100%;
+        font-family: 'Dancing Script', cursive;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  h1{
+      text-align: center;
+      color:#9a8c99;
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+  }
+  
+  h2{
+      text-align: center;
+      color:#9a8c99;
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+  }
+  
+  nav{
+      color: #726c72;
+      font-size: 25px;
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 100;
+      text-decoration: none;
+      text-align: center;
+      background-color: #ffe2d6;
+      padding: 15px;    
+  }
+  
+  .blog-logo{
+      display: flex;
+      justify-content: center; 
+  }
+  
+  .spaced-item{
+      margin-right: 35px;
+      margin-left: 35px;
+      text-decoration: none;
+      color: #726c72;
+    }
+  
+  .spaced-item:hover {
+  color: #FFA3FD;
+  font-weight: 500;
+  }
+  
+  .tag-line{
+      font-size: 20px;
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 100;
+      text-decoration: none;
+      text-align: center;
+      padding: 10px; 
+  }
+  
+  .gallery-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 100;
+      text-decoration: none;
+      text-align: center;
+      padding: 10px;
+  }
+  
+  .gallery-image {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 450px;
+      border: 1px solid black;
+      margin: 12px;
+      border-radius: 8px;
+  }
+  
+  .gallery-image img {
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+  }
+  
+  .container-fluid {
+  display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffe2d6;
+      color: #726c72;
+      width: 100%;
+      text-align: center;
+  }
+  
+  .footer {
+      background-color: #ffe2d6;
+      position: relative;
+      width: 100%;
+     justify-content: center;
+      align-items: center;
+      color: #726c72;
+     text-align: center;
+    
+      
+  }
+    .container-fluid-makeup {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffe2d6;
+      color: #726c72;
+      width: 100%;
+      text-align: center;
+      font-size: 20px
+  }
+  
+   .footer-makeup {
+      background-color: #ffe2d6;
+      position: relative;
+      width: 100%;
+     justify-content: center;
+      align-items: center;
+      color: #726c72;
+     text-align: center;
+     font-size: 20px
+   
+    
+      
+  }
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
